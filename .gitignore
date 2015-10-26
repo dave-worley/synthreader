@@ -2,3 +2,4 @@ venv/
 Thumbs.db
 .DS_Store
 *.pyc
+.idea
