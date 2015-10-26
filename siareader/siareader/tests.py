@@ -19,7 +19,7 @@ class ReaderUserTestCase(LiveServerTestCase):
 
         # user should see some basic markup
         logo = self.browser.find_element_by_id('sialogo')
-        self.assertEqual('Sia Reader', logo.text)
+        self.assertEqual('Synesthesia Reader', logo.text)
 
 
         self.fail('Incomplete test.')
